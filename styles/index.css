@@ -17,9 +17,19 @@
   font-style: normal;
 }
 
+/* share styles */
+.shared-button{
+  font-weight: bold;
+  color: white;
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border-style: none;
+}
+
 /* header styles */
 .bg-primary{
-
+  background-image: url(../Assets/Hero-bg.png);
 }
 
 .nav{
@@ -32,11 +42,54 @@
   font-size: 34px;
   color: #4E47FF;
 }
-.sign-up{
+
+
+.cool-section{
+  text-align: center;
+  margin: 0px auto;
+}
+.cool-text{
+  font-size: 65px;
+  font-weight: Bold;
+  width: 905px;
+  margin-bottom: 37px;
+  margin: 150px auto 37px auto;
+  color: #252432
+}
+.focus-button{
+  margin-bottom: 152px ;
+}
+
+/* action-section */
+.action-section{
+  width: 1140px;
+  display: flex;
+  margin: 116px auto 116px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-title{
+  font-size: 42px;
+  font-weight: Bold;
+  color: #252432;
+}
+.action-details{
+  font-size: 24px;
+  color: 252432;
+  opacity: 50%;
+  width: 516px;
+  padding-bottom: 23px;
+  padding-top: 23px;
+}
+.action-button{
   font-weight: bold;
   color: white;
   background-color: #4E47FF;
   padding: 12px 36px;
   border-radius: 10px;
   border-style: none;
+  font-size: 16px;
+}
+.action-img img{
+  border-radius: 48px;
 }
