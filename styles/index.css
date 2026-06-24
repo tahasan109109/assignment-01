@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts */
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* header styles */
+.bg-primary{
+
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+.logo{
+  font-weight: 900;
+  font-size: 34px;
+  color: #4E47FF;
+}
+.sign-up{
+  font-weight: bold;
+  color: white;
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border-style: none;
+}
