@@ -29,9 +29,14 @@ body{
   border-style: none;
 }
 .animt-button:hover{
-  background-color: #3529E0;
-  font-size: 1.1em;
+  background-color: #3529e0de;
+  /* font-size: 1.1em; */
+  transform: translateY(-1px);
+  box-shadow:
+    0 4px 8px rgba(26, 47, 94, 0.3),
+    0 16px 40px rgba(26, 47, 94, 0.3);
 }
+
 
 /* header styles */
 .bg-primary{
@@ -193,7 +198,7 @@ body{
   width: 1140px;
   height: 697px;
   background-color: white;
-  margin: 0 auto 118px;
+  margin: 0 auto;
   text-align: center;
   border-radius: 14px;
   /* padding: 71px; */
@@ -202,16 +207,22 @@ body{
   font-size: 50px;
   font-weight: bold;
   color: black;
-  padding-top: 71px;
-  padding-bottom: 20px;
+  padding: 71px 0 20px 0;
 }
 .focus-details{
   color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.focus-button{
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.focus-img{
+  margin-bottom: 71px;
 }
 .focus-img img{
   border-radius: 48px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   
 }
 /* form-section */
