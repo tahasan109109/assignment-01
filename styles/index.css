@@ -41,6 +41,7 @@ body{
 /* header styles */
 .bg-primary{
   background-image: url(../Assets/Hero-bg.png);
+  height: 652px;
 }
 
 .nav{
@@ -65,7 +66,7 @@ body{
   width: 905px;
   margin-bottom: 37px;
   margin: 150px auto 37px auto;
-  color: #252432
+  color: #252432;
 }
 .focus-button{
   margin-bottom: 152px ;
