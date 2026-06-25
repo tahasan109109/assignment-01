@@ -28,6 +28,10 @@ body{
   border-radius: 10px;
   border-style: none;
 }
+.animt-button:hover{
+  background-color: #3529E0;
+  font-size: 1.1em;
+}
 
 /* header styles */
 .bg-primary{
